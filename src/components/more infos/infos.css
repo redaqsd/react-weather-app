@@ -1,0 +1,29 @@
+.infosSec {
+    position: absolute;
+    margin: 10px;
+    right: 0;
+    width: 70%;
+    height: 30%;
+    bottom: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.singleElem{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 120px;
+    height: 80%;
+    background-color: #1D1C1F;
+    border-radius: 16px;
+    margin-right: 10px;
+}
+
+.singleElem img{
+    width: 50px;
+    object-fit: contain;
+    object-position: center;
+}

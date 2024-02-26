@@ -1,0 +1,51 @@
+.highlightsSec {
+    position: absolute;
+    margin: 10px;
+    background-color: #1D1C1F;
+    right: 0;
+    width: 70%;
+    height: 50%;
+    border-radius: 16px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+
+.temperatureInfos , .extraInfos{
+    width: 80%;
+    height: 40%;
+    display: grid;
+    grid-template-columns: repeat(3 , 28%);
+    justify-content: space-around;
+}
+
+.temperatureInfos {
+    background-color: #131214;
+    border-radius: 28px;
+}
+
+.option {
+    background-color: #131214;
+    border-radius: 28px;
+    padding: 20px;
+}
+
+.option span{
+    color: #DDDAE5;
+    font-size: 12px;
+}
+
+.valueSec {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.icons {
+    font-size: 35px;
+}
